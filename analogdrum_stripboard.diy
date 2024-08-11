@@ -51,6 +51,8 @@
       <coordinateOrigin>Top_Left</coordinateOrigin>
       <coordinateDisplay>One_Side</coordinateDisplay>
       <yType>Letters</yType>
+      <length value="71.12" unit="mm"/>
+      <width value="91.44" unit="mm"/>
       <mode>TwoPoints</mode>
       <spacing value="0.1" unit="in"/>
       <stripColor hex="da8a67"/>
@@ -1125,6 +1127,28 @@
       <holeSpacing value="0.1" unit="in"/>
       <point x="2.9" y="4.2"/>
     </diylc.connectivity.TraceCut>
+    <diylc.connectivity.TraceCut>
+      <name>Cut6</name>
+      <size value="0.08" unit="in"/>
+      <fillColor hex="ffffff"/>
+      <borderColor hex="ff0000"/>
+      <boardColor hex="f8ebb3"/>
+      <cutBetweenHoles>false</cutBetweenHoles>
+      <orientation>VERTICAL</orientation>
+      <holeSpacing value="0.1" unit="in"/>
+      <point x="6.1" y="2.8"/>
+    </diylc.connectivity.TraceCut>
+    <diylc.connectivity.TraceCut>
+      <name>Cut53</name>
+      <size value="0.08" unit="in"/>
+      <fillColor hex="ffffff"/>
+      <borderColor hex="ff0000"/>
+      <boardColor hex="f8ebb3"/>
+      <cutBetweenHoles>false</cutBetweenHoles>
+      <orientation>VERTICAL</orientation>
+      <holeSpacing value="0.1" unit="in"/>
+      <point x="6.1" y="2.7"/>
+    </diylc.connectivity.TraceCut>
     <diylc.connectivity.Eyelet>
       <name>Eyelet1</name>
       <size value="0.2" unit="in"/>
@@ -1153,7 +1177,7 @@
       <name>Pad6</name>
       <size value="0.09" unit="in"/>
       <color hex="000000"/>
-      <point x="1.9" y="3.7"/>
+      <point x="1.9" y="4.6"/>
       <type>ROUND</type>
       <holeSize value="0.8" unit="mm"/>
       <layer>_1</layer>
@@ -1195,7 +1219,7 @@
       <name>Pad2</name>
       <size value="0.09" unit="in"/>
       <color hex="000000"/>
-      <point x="1.9" y="5.1"/>
+      <point x="1.9" y="6.0"/>
       <type>ROUND</type>
       <holeSize value="0.8" unit="mm"/>
       <layer>_1</layer>
@@ -1563,7 +1587,7 @@
       <hideShortLeads>false</hideShortLeads>
       <value value="100.0" unit="K"/>
       <power>HALF</power>
-      <colorCode>_4_BAND</colorCode>
+      <colorCode>NONE</colorCode>
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.semiconductors.DiodeGlass>
@@ -1610,7 +1634,7 @@
       <hideShortLeads>false</hideShortLeads>
       <value value="100.0" unit="K"/>
       <power>HALF</power>
-      <colorCode>_4_BAND</colorCode>
+      <colorCode>NONE</colorCode>
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.RadialCeramicDiskCapacitor>
@@ -2035,7 +2059,7 @@
       <hideShortLeads>false</hideShortLeads>
       <value value="100.0" unit="K"/>
       <power>HALF</power>
-      <colorCode>_4_BAND</colorCode>
+      <colorCode>NONE</colorCode>
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.semiconductors.DiodeGlass>
@@ -2082,7 +2106,7 @@
       <hideShortLeads>false</hideShortLeads>
       <value value="10.0" unit="K"/>
       <power>HALF</power>
-      <colorCode>_4_BAND</colorCode>
+      <colorCode>NONE</colorCode>
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.connectivity.HookupWire>
@@ -2290,7 +2314,7 @@
         <point x="5.9" y="6.3"/>
         <point x="5.2" y="5.1"/>
         <point x="7.3" y="5.0"/>
-        <point x="8.2" y="6.2"/>
+        <point x="8.3" y="5.7"/>
       </controlPoints2>
       <color hex="0000ff"/>
       <pointCount>FOUR</pointCount>
@@ -2326,7 +2350,7 @@
         <point x="6.5" y="6.3"/>
         <point x="7.0" y="6.3"/>
         <point x="7.0" y="6.3"/>
-        <point x="8.3" y="5.7"/>
+        <point x="8.3" y="6.2"/>
       </controlPoints2>
       <color hex="00ff00"/>
       <pointCount>FOUR</pointCount>
@@ -2343,8 +2367,8 @@
       <controlPoints2>
         <point x="0.7" y="1.7"/>
         <point x="0.7" y="1.9"/>
-        <point x="1.2" y="2.1"/>
-        <point x="1.2" y="2.3"/>
+        <point x="1.2" y="1.9"/>
+        <point x="1.2" y="1.7"/>
       </controlPoints2>
       <color hex="00ff00"/>
       <pointCount>FOUR</pointCount>
@@ -2360,9 +2384,9 @@
       <alpha>127</alpha>
       <controlPoints2>
         <point x="1.6" y="2.6"/>
-        <point x="0.9" y="2.6"/>
-        <point x="0.9" y="2.6"/>
-        <point x="0.7" y="2.3"/>
+        <point x="1.4" y="2.6"/>
+        <point x="1.2" y="2.6"/>
+        <point x="1.2" y="2.3"/>
       </controlPoints2>
       <color hex="0000ff"/>
       <pointCount>FOUR</pointCount>
@@ -2395,10 +2419,10 @@
       <name>W6</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="8.3" y="5.7"/>
-        <point x="8.4" y="5.1"/>
-        <point x="9.4" y="5.1"/>
-        <point x="9.6" y="5.6"/>
+        <point x="8.3" y="6.2"/>
+        <point x="8.5" y="5.9"/>
+        <point x="9.3" y="5.9"/>
+        <point x="9.6" y="6.1"/>
       </controlPoints2>
       <color hex="00ff00"/>
       <pointCount>FOUR</pointCount>
@@ -2413,10 +2437,10 @@
       <name>W24</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="9.5" y="6.1"/>
-        <point x="8.9" y="6.5"/>
-        <point x="8.4" y="6.6"/>
-        <point x="7.7" y="6.2"/>
+        <point x="9.6" y="5.6"/>
+        <point x="8.9" y="5.9"/>
+        <point x="8.4" y="5.9"/>
+        <point x="7.7" y="5.7"/>
       </controlPoints2>
       <color hex="0000ff"/>
       <pointCount>FOUR</pointCount>
@@ -2431,9 +2455,9 @@
       <name>W11</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="9.5" y="6.1"/>
-        <point x="9.5" y="6.5"/>
-        <point x="9.5" y="6.5"/>
+        <point x="9.6" y="5.6"/>
+        <point x="9.7" y="6.0"/>
+        <point x="9.7" y="6.0"/>
         <point x="9.7" y="6.5"/>
       </controlPoints2>
       <color hex="0000ff"/>
@@ -2576,7 +2600,7 @@
       <font reference="../../diylc.misc.Label/font"/>
       <color hex="000000"/>
       <horizontalAlignment>RIGHT</horizontalAlignment>
-      <value>Use a 10 or 16 pin shrouded header to avoid use of polarity protection</value>
+      <value>Use a 10 or 16 pin shrouded header to avoid use of polarity protection&lt;br&gt;All pots viewed from the back</value>
     </diylc.misc.WrapLabel>
     <diylc.misc.Label>
       <name>LAB13</name>
@@ -2590,7 +2614,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB12</name>
-      <point x="1.7" y="3.6"/>
+      <point x="2.0" y="4.6"/>
       <text>TRG DCY</text>
       <font name="Dialog" size="14" style="0"/>
       <color hex="000000"/>
@@ -2831,11 +2855,11 @@
     <diylc.misc.WrapLabel>
       <name>L2</name>
       <controlPoints>
-        <point x="8.3" y="6.6"/>
-        <point x="8.8" y="7.0"/>
+        <point x="8.3" y="5.3"/>
+        <point x="8.8" y="5.7"/>
       </controlPoints>
-      <firstPoint x="8.3" y="6.6"/>
-      <secondPoint x="8.8" y="7.0"/>
+      <firstPoint x="8.3" y="5.3"/>
+      <secondPoint x="8.8" y="5.7"/>
       <font name="Dialog" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
@@ -2963,7 +2987,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB6</name>
-      <point x="0.5" y="1.6"/>
+      <point x="1.3" y="1.6"/>
       <text>TS</text>
       <font name="Dialog" size="14" style="0"/>
       <color hex="000000"/>
@@ -2973,7 +2997,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB20</name>
-      <point x="0.5" y="2.4"/>
+      <point x="1.3" y="2.5"/>
       <text>T</text>
       <font name="Dialog" size="14" style="0"/>
       <color hex="000000"/>
@@ -3003,7 +3027,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB23</name>
-      <point x="8.4" y="6.3"/>
+      <point x="8.4" y="5.7"/>
       <text>T</text>
       <font name="Dialog" size="14" style="0"/>
       <color hex="000000"/>
@@ -3013,7 +3037,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB78</name>
-      <point x="7.5" y="6.3"/>
+      <point x="7.5" y="5.7"/>
       <text>TS</text>
       <font name="Dialog" size="14" style="0"/>
       <color hex="000000"/>
@@ -3033,7 +3057,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB80</name>
-      <point x="9.7" y="6.2325"/>
+      <point x="9.7" y="5.6"/>
       <text>T</text>
       <font name="Dialog" size="14" style="0"/>
       <color hex="000000"/>
@@ -3043,7 +3067,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB81</name>
-      <point x="8.8" y="6.2325"/>
+      <point x="8.8" y="5.6"/>
       <text>TS</text>
       <font name="Dialog" size="14" style="0"/>
       <color hex="000000"/>
@@ -3293,7 +3317,7 @@
     </diylc.semiconductors.TransistorTO92>
     <diylc.passive.Resistor>
       <name>10K</name>
-      <alpha>127</alpha>
+      <alpha>63</alpha>
       <length value="0.5" unit="in"/>
       <width value="0.125" unit="in"/>
       <points>
@@ -3312,7 +3336,7 @@
       <hideShortLeads>false</hideShortLeads>
       <value value="10.0" unit="K"/>
       <power>HALF</power>
-      <colorCode>_4_BAND</colorCode>
+      <colorCode>NONE</colorCode>
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
@@ -3336,7 +3360,7 @@
       <hideShortLeads>false</hideShortLeads>
       <value value="220.0" unit="K"/>
       <power>HALF</power>
-      <colorCode>_4_BAND</colorCode>
+      <colorCode>NONE</colorCode>
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
@@ -3360,7 +3384,7 @@
       <hideShortLeads>false</hideShortLeads>
       <value value="220.0" unit="K"/>
       <power>HALF</power>
-      <colorCode>_4_BAND</colorCode>
+      <colorCode>NONE</colorCode>
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.connectivity.HookupWire>
@@ -3439,7 +3463,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB76</name>
-      <point x="2.0" y="5.1"/>
+      <point x="2.0" y="6.0"/>
       <text>FQ DCY</text>
       <font name="Dialog" size="14" style="0"/>
       <color hex="000000"/>
@@ -3622,7 +3646,7 @@
       <hideShortLeads>false</hideShortLeads>
       <value value="33.0" unit="K"/>
       <power>HALF</power>
-      <colorCode>_4_BAND</colorCode>
+      <colorCode>NONE</colorCode>
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
@@ -3646,7 +3670,7 @@
       <hideShortLeads>false</hideShortLeads>
       <value value="4.7" unit="K"/>
       <power>HALF</power>
-      <colorCode>_4_BAND</colorCode>
+      <colorCode>NONE</colorCode>
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.RadialElectrolytic>
@@ -3698,7 +3722,7 @@
       <hideShortLeads>false</hideShortLeads>
       <value value="4.7" unit="K"/>
       <power>HALF</power>
-      <colorCode>_4_BAND</colorCode>
+      <colorCode>NONE</colorCode>
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
@@ -3722,7 +3746,7 @@
       <hideShortLeads>false</hideShortLeads>
       <value value="22.0" unit="K"/>
       <power>HALF</power>
-      <colorCode>_4_BAND</colorCode>
+      <colorCode>NONE</colorCode>
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
@@ -3770,7 +3794,7 @@
       <hideShortLeads>false</hideShortLeads>
       <value value="470.0" unit="R"/>
       <power>HALF</power>
-      <colorCode>_4_BAND</colorCode>
+      <colorCode>NONE</colorCode>
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.semiconductors.DiodeGlass>
@@ -3873,7 +3897,7 @@
       <font name="Dialog" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>RIGHT</horizontalAlignment>
-      <value>v0.1 Initial layout based on Michael Barton&apos;s circuit (BMC018)</value>
+      <value>v0.1 Initial layout based on Michael Barton&apos;s circuit (BMC018)&lt;br&gt;v0.2 Multiple layout bugs fixed</value>
     </diylc.misc.WrapLabel>
   </components>
   <groups/>
