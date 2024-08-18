@@ -29,6 +29,8 @@
       <coordinateOrigin>Top_Left</coordinateOrigin>
       <coordinateDisplay>One_Side</coordinateDisplay>
       <yType>Letters</yType>
+      <length value="71.12" unit="mm"/>
+      <width value="91.44" unit="mm"/>
       <mode>TwoPoints</mode>
       <spacing value="0.1" unit="in"/>
       <stripColor hex="da8a67"/>
@@ -1063,9 +1065,9 @@
       <name>J26</name>
       <alpha>127</alpha>
       <points>
-        <point x="8.2" y="3.2"/>
-        <point x="8.2" y="3.4"/>
-        <point x="8.2" y="3.3"/>
+        <point x="7.699999999999999" y="3.2"/>
+        <point x="7.699999999999999" y="3.4"/>
+        <point x="7.699999999999999" y="3.3"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -1083,8 +1085,8 @@
       <alpha>127</alpha>
       <points>
         <point x="5.9" y="2.1"/>
-        <point x="5.9" y="4.5"/>
-        <point x="5.9" y="3.3"/>
+        <point x="5.9" y="4.3"/>
+        <point x="5.9" y="3.2"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -1102,8 +1104,8 @@
       <alpha>127</alpha>
       <points>
         <point x="7.8" y="3.0"/>
-        <point x="7.8" y="4.3"/>
-        <point x="7.8" y="3.65"/>
+        <point x="7.8" y="4.0"/>
+        <point x="7.8" y="3.5"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -1148,6 +1150,17 @@
       <orientation>VERTICAL</orientation>
       <holeSpacing value="0.1" unit="in"/>
       <point x="6.1" y="2.7"/>
+    </diylc.connectivity.TraceCut>
+    <diylc.connectivity.TraceCut>
+      <name>Cut57</name>
+      <size value="0.08" unit="in"/>
+      <fillColor hex="ffffff"/>
+      <borderColor hex="ff0000"/>
+      <boardColor hex="f8ebb3"/>
+      <cutBetweenHoles>false</cutBetweenHoles>
+      <orientation>VERTICAL</orientation>
+      <holeSpacing value="0.1" unit="in"/>
+      <point x="6.4" y="3.4"/>
     </diylc.connectivity.TraceCut>
     <diylc.connectivity.Eyelet>
       <name>Eyelet1</name>
@@ -1274,6 +1287,15 @@
       <size value="0.09" unit="in"/>
       <color hex="000000"/>
       <point x="9.7" y="6.5"/>
+      <type>ROUND</type>
+      <holeSize value="0.8" unit="mm"/>
+      <layer>_1</layer>
+    </diylc.connectivity.SolderPad>
+    <diylc.connectivity.SolderPad>
+      <name>Pad1</name>
+      <size value="0.09" unit="in"/>
+      <color hex="000000"/>
+      <point x="6.699999999999999" y="6.7"/>
       <type>ROUND</type>
       <holeSize value="0.8" unit="mm"/>
       <layer>_1</layer>
@@ -1729,9 +1751,10 @@
         <point x="2.8" y="4.0"/>
         <point x="2.8" y="4.1"/>
         <point x="2.8" y="4.2"/>
+        <point x="2.8" y="4.3"/>
       </controlPoints>
       <rowCount>1</rowCount>
-      <columnCount>19</columnCount>
+      <columnCount>20</columnCount>
       <spacing value="0.1" unit="in"/>
       <shrouded>false</shrouded>
       <bodyColor hex="808080"/>
@@ -1964,9 +1987,10 @@
         <point x="6.0" y="4.0"/>
         <point x="6.0" y="4.1"/>
         <point x="6.0" y="4.2"/>
+        <point x="6.0" y="4.3"/>
       </controlPoints>
       <rowCount>1</rowCount>
-      <columnCount>19</columnCount>
+      <columnCount>20</columnCount>
       <spacing value="0.1" unit="in"/>
       <shrouded>false</shrouded>
       <bodyColor hex="808080"/>
@@ -1991,9 +2015,10 @@
         <point x="2.7" y="4.0"/>
         <point x="2.7" y="4.1"/>
         <point x="2.7" y="4.2"/>
+        <point x="2.7" y="4.3"/>
       </controlPoints>
       <rowCount>1</rowCount>
-      <columnCount>14</columnCount>
+      <columnCount>15</columnCount>
       <spacing value="0.1" unit="in"/>
       <shrouded>false</shrouded>
       <bodyColor hex="808080"/>
@@ -3295,7 +3320,7 @@
       <hideShortLeads>false</hideShortLeads>
       <value value="220.0" unit="R"/>
       <power>HALF</power>
-      <colorCode>_4_BAND</colorCode>
+      <colorCode>NONE</colorCode>
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.semiconductors.TransistorTO92>
@@ -3340,7 +3365,7 @@
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
-      <name>220K</name>
+      <name>220</name>
       <alpha>127</alpha>
       <length value="0.5" unit="in"/>
       <width value="0.125" unit="in"/>
@@ -3358,13 +3383,13 @@
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
       <hideShortLeads>false</hideShortLeads>
-      <value value="220.0" unit="K"/>
+      <value value="220.0" unit="R"/>
       <power>HALF</power>
       <colorCode>NONE</colorCode>
       <shape>Standard</shape>
     </diylc.passive.Resistor>
     <diylc.passive.Resistor>
-      <name>220K</name>
+      <name>220</name>
       <alpha>127</alpha>
       <length value="0.5" unit="in"/>
       <width value="0.125" unit="in"/>
@@ -3382,7 +3407,7 @@
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
       <hideShortLeads>false</hideShortLeads>
-      <value value="220.0" unit="K"/>
+      <value value="220.0" unit="R"/>
       <power>HALF</power>
       <colorCode>NONE</colorCode>
       <shape>Standard</shape>
@@ -3803,9 +3828,9 @@
       <length value="0.2" unit="in"/>
       <width value="0.09" unit="in"/>
       <points>
+        <point x="7.4" y="4.0"/>
         <point x="7.4" y="4.3"/>
-        <point x="7.4" y="4.5"/>
-        <point x="7.4" y="4.4"/>
+        <point x="7.4" y="4.15"/>
       </points>
       <bodyColor hex="e1f0ff"/>
       <borderColor hex="808080"/>
@@ -3826,9 +3851,9 @@
       <length value="0.2" unit="in"/>
       <width value="0.09" unit="in"/>
       <points>
-        <point x="7.6" y="4.5"/>
         <point x="7.6" y="4.3"/>
-        <point x="7.6" y="4.4"/>
+        <point x="7.6" y="4.0"/>
+        <point x="7.6" y="4.15"/>
       </points>
       <bodyColor hex="e1f0ff"/>
       <borderColor hex="808080"/>
@@ -3850,8 +3875,8 @@
       <width value="0.125" unit="in"/>
       <points>
         <point x="7.5" y="3.4"/>
-        <point x="7.5" y="4.3"/>
-        <point x="7.5" y="3.85"/>
+        <point x="7.5" y="4.0"/>
+        <point x="7.5" y="3.7"/>
       </points>
       <bodyColor hex="f0e68c"/>
       <borderColor hex="a8a162"/>
@@ -3866,6 +3891,24 @@
       <value value="22.0" unit="nF"/>
       <voltage>_63V</voltage>
     </diylc.passive.RadialCeramicDiskCapacitor>
+    <diylc.connectivity.HookupWire>
+      <name>W7</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="6.5" y="6.3"/>
+        <point x="6.7" y="6.6"/>
+        <point x="6.7" y="6.6"/>
+        <point x="6.7" y="6.7"/>
+      </controlPoints2>
+      <color hex="00ff00"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
     <diylc.misc.Label>
       <name>LAB54</name>
       <point x="6.4" y="2.2"/>
@@ -3899,6 +3942,36 @@
       <horizontalAlignment>RIGHT</horizontalAlignment>
       <value>v0.1 Initial layout based on Michael Barton&apos;s circuit (BMC018)&lt;br&gt;v0.2 Multiple layout bugs fixed</value>
     </diylc.misc.WrapLabel>
+    <diylc.misc.Label>
+      <name>LAB73</name>
+      <point x="5.9" y="4.3"/>
+      <text>GND</text>
+      <font name="Dialog" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>RIGHT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB74</name>
+      <point x="2.6" y="4.3"/>
+      <text>GND</text>
+      <font name="Dialog" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>RIGHT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB75</name>
+      <point x="6.800000000000001" y="6.7"/>
+      <text>GND</text>
+      <font name="Dialog" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
   </components>
   <groups/>
   <lockedLayers/>
